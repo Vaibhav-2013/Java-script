@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>functions</title>
+</head>
+<body>
+    <button onclick="multiplication(2,10)">excute multiplication function</button>
+    <p>setting up function.parameter</p>
+    <p id="demo"></p>
+    <p id="addition"></p>
+    <script>
+        function multiplication(a,b){
+            if(b ===10){
+                b=10;
+            }
+            document.write (a * b);
+        }
+        document.getElementById("demo").innerHTML=multiplication(5);
+        function addition(){
+            var a=10;     
+            document.getElementById("addition").innerHTML=a*a
+        }   </script>
+</body>
+</html>
