@@ -7,6 +7,9 @@
 </head>
 <body>
     <h>Javascript arrays</h>
+    <h2>Join and pop</h2>
+    <p id="join"></p>
+    <p id="pop"></p>
     <p id="array"></p>
     <p id="array1"></p>
     <p id="array2"></p>
@@ -15,6 +18,9 @@
         document.getElementById("array2").innerHTML=fruits;
         document.getElementById("array1").innerHTML=fruits[2];
         document.getElementById("array").innerHTML=fruits[4];
+           document.getElementById("join").innerHTML=fruits.join("&")
+        fruits.pop()
+         document.getElementById("pop").innerHTML=fruits
     </script>
 </body>
 </html>
