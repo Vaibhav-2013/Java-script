@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real time validation using javascript</title>
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+        }
+        h1{
+            margin:30px 10px 10px;
+            font-size: 70px;
+            font-weight: bold;
+        }
+        .box{
+            width:px;
+            margin:auto;
+            border:2px solid;
+            padding:50px;
+        }
+        #row{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2px;
+        }
+        label{
+width:1000px;
+text-align: right;
+font-size: 30px;
+        }
+        button{
+            margin-top: 10px;
+            padding: 4px;
+            cursor: pointer;
+        }
+        #message{
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>
+        Real form validation using javascript
+    </h1>
+    <div class="box">
+        <form id="loginform">
+        <div id="row">
+            <label>email</label>
+            <input type="text" id="email" placeholder="name@gmail.com">
+        </div>
+        <div id="row">
+            <label>password</label>
+            <input type="password" id="password" placeholder="......">
+        </div>
+        <div id="row">
+            <label>age</label>
+            <input type="age" id="age" placeholder="enter your age like-12">
+        </div>
+    </div>
+    <p id="message"></p>
+    <button type="submit">Login</button></form>
+    <script src="form.js">    
+    </script>
+</body>
+</html>
