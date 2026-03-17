@@ -1,9 +1,9 @@
 function validate(e){
-e.preventdefault();
+e.preventDefault();
 const email=document.getElementById("email").value;
     const password= document.getElementById("password").value;
     const  age = document.getElementById("age").value;
-    const msgBox = document.getElementById("message").value;
+    const msgBox = document.getElementById("message");
     let message='';
     if (email===''){
         message="please enter an email";
